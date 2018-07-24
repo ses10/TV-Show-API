@@ -8,8 +8,8 @@ Port will be 8080
 GET: localhost:8080/shows\
 GET: localhost:8080/shows?page=1&size=2
 
-POST: localhost:8080/shows
-\{
+POST: localhost:8080/shows\
+{
     "title": "a show",
     "description": "a show about to be created",
     "duration": 30,
@@ -18,8 +18,8 @@ POST: localhost:8080/shows
     "keywords": "test,word,something"
 }
 
-PUT: localhost:8080/shows/{id}
-\{
+PUT: localhost:8080/shows/{id}\
+{
     "title": "a show",
     "description": "a show being updated",
     "duration": 30,
