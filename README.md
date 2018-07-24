@@ -5,11 +5,11 @@ After cloning the project, you can start the service by running the jar inside t
 Port will be 8080
 
 # Endpoints
-GET: localhost:8080/shows
+GET: localhost:8080/shows\
 GET: localhost:8080/shows?page=1&size=2
 
 POST: localhost:8080/shows
-{
+\{
     "title": "a show",
     "description": "a show about to be created",
     "duration": 30,
@@ -19,7 +19,7 @@ POST: localhost:8080/shows
 }
 
 PUT: localhost:8080/shows/{id}
-{
+\{
     "title": "a show",
     "description": "a show being updated",
     "duration": 30,
@@ -32,8 +32,8 @@ PUT: localhost:8080/shows/{id}
 localhost:8080/h2-console
 
 On the login enter the following:
-JDBC URL: jdbc:h2:mem:showdb
-User Name: test
-Password: test
+\JDBC URL: jdbc:h2:mem:showdb
+\User Name: test
+\Password: test
 
 All other settings can be left as is.
