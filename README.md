@@ -34,6 +34,6 @@ localhost:8080/h2-console
 On the login enter the following:
 JDBC URL: jdbc:h2:mem:showdb\
 User Name: test\
-Password: test\
+Password: test
 
 All other settings can be left as is.
